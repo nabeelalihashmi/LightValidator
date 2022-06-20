@@ -1,0 +1,19 @@
+{
+    "name": "nabeelalihashmi/lightvalidator",
+    "description": "Lightweight and extensible validator for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IconicCodes\\LightValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nabeel Ali",
+            "email": "mail2nabeelali@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
