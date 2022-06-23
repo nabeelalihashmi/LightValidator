@@ -2,6 +2,8 @@
 
 namespace IconicCodes\LightValidator;
 
+use IconicCodes\LightValidator\LValidatorBase;
+
 class LValidator extends LValidatorBase {
 
     public function required($key) {

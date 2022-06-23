@@ -1,47 +1,4 @@
 <?php
-/*
-
-$rules = [
-    'username' => [
-        'required',
-        'alphanumeric',
-        'minlen' => 3,
-        'maxlen' => 10
-    ],
-
-    'email' => [
-        'required',
-        'email'
-    ],
-
-    'id' => [
-        'required',
-        'numeric',
-        'in' => $valid_ids
-    ]
-];
-
-$overrride_messages = [
-    'id' =>  [ 
-        'in' => ['ID Must have value betweeen ' . implode(', ', $valid_ids)]
-    ],
-    'username' => [
-        'required' => 'Username is required',
-        'string' => 'Username must be string',
-        'min' => 'Username must be at least 3 characters',
-        'max' => 'Username must be at most 10 characters',
-    ],
-    'email' => [
-        'required' => 'Email is required',
-        'email' => 'Email must be valid',
-    ],
-    'password' => [
-        'required' => 'Password is required',
-        'min' => 'Password must be at least 6 characters',
-        'max' => 'Password must be at most 10 characters',
-    ],
-];*/
-
 namespace IconicCodes\LightValidator;
 
 abstract class LValidatorBase {
